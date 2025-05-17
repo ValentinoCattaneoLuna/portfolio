@@ -1,0 +1,156 @@
+header {
+    background-color: var(--fondoAzulOscuro);
+    color: white;
+    height: 75px;
+    display: flex;
+    border-bottom:2px solid var(--grisAzulado);
+}
+
+header .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar ul li a {
+    font-weight: 700;
+    transition: color .2s ease;
+}
+
+.navbar ul li a:hover {
+    color: var(--violetaClaro);
+}
+
+
+.botonera {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.idioma {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    border: 1px solid #7f5af0;
+    border-radius: 12px;
+    background-color: #000;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.idioma i {
+    font-size: 16px;
+}
+
+.idioma:hover {
+    background-color: #1a1a1a;
+    box-shadow: 0 0 0 2px #7f5af0;
+}
+
+
+.descargarCV {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: #7f5af0;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.descargarCV--mobile {
+    display: none;
+}
+
+.descargarCV--desktop {
+    display: inline-flex;
+}
+
+.descargarCV i {
+    font-size: 18px;
+}
+
+.descargarCV:hover {
+    background-color: #6846db;
+}
+
+
+.hamburguesa {
+    display: none;
+    cursor: pointer;
+    font-size: 32px;
+    color: white;
+}
+
+@media (max-width: 1220px) {
+    
+    header .contenedor {
+        justify-content: space-between;
+    }   
+    .navbar {
+        text-align: center;
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--fondoAzulOscuro);
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        pointer-events: none;
+        padding: 1rem 0;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .navbar.activo {
+        transform: scaleY(1);
+        opacity: 1;
+        pointer-events: auto;
+        border-bottom: 2px solid var(--grisAzulado);
+    }
+
+    .descargarCV--mobile {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .descargarCV--desktop {
+        display: none;
+    }
+
+    .hamburguesa {
+        display: block;
+    }
+
+
+}
