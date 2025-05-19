@@ -1,0 +1,98 @@
+#hero{
+    min-height: 92dvh;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.elementos_hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.image_hero {
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  border-radius: 50%;
+}
+
+.image_card {
+  border: 3px solid #8b5cf6;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  border-radius: 50%;
+}
+
+.image_hero:hover .image_card {
+  transform: rotateY(180deg);
+}
+
+.image_card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+
+.image_card .back {
+  transform: rotateY(180deg);
+}
+
+
+.title_hero h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.desc_hero p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.buttons_hero{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.buttons_hero button{
+    min-width: 150px;
+    min-height: 50px;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.social_hero{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.social_hero a i{
+    font-size: 1.5rem;
+    transition: all .2s ease;
+}
+
+.social_hero a:hover{
+    color: var(--violetaClaro);
+    transform: scale(1.2);
+}
+
+.contact_hero{
+    display: flex;
+    gap: 1rem;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.contact_hero .informacion i {
+    color: var(--violetaClaro);
+}

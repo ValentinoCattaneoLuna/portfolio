@@ -1,0 +1,50 @@
+#skills {
+    background-color: var(--fondoAzulGris);
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+
+.elementos_skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.galeria_skills{
+    display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3rem;
+
+}
+.card_skill{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #020817 ;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid var(--violetaClaro);
+    transition: all .3s ease;
+}
+.card_skill:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(115, 103, 240, 0.2);
+
+}
+@media (max-width:900px){
+    .galeria_skills{
+    grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width:630px){
+    .galeria_skills{
+    grid-template-columns: repeat(2, 1fr);
+    }
+}

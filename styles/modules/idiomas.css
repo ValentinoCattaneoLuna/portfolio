@@ -1,0 +1,61 @@
+#idiomas{
+  background-color: var(--fondoAzulGris);
+    padding-bottom: 8rem;
+}
+.idiomas_elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.galeria_idiomas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+}
+
+
+.card_idioma{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #020817;
+    border-radius: 5px;
+    border: 1px solid var(--violetaClaro);
+    width: 22rem;
+    padding: 1rem;
+    transition: all .3s ease;
+
+}
+
+.card_idioma:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(115, 103, 240, 0.2);
+
+}
+
+.informacion_idioma{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.informacion_idioma img{
+    width:32px ;
+    height:32px;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.nivel_idioma{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:900px){
+    .galeria_idiomas{
+    grid-template-columns: repeat(1, 1fr);
+    }
+}

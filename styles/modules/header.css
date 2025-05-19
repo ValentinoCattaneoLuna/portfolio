@@ -42,43 +42,7 @@ header .contenedor {
     gap: 1rem;
 }
 
-.idioma {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    padding: 8px 12px;
-    border: 1px solid #7f5af0;
-    border-radius: 12px;
-    background-color: #000;
-    color: white;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
 
-.idioma i {
-    font-size: 16px;
-}
-
-.idioma:hover {
-    background-color: #1a1a1a;
-    box-shadow: 0 0 0 2px #7f5af0;
-}
-
-
-.descargarCV {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 16px;
-    border: none;
-    border-radius: 12px;
-    background-color: #7f5af0;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
 .descargarCV--mobile {
     display: none;
 }
@@ -86,15 +50,6 @@ header .contenedor {
 .descargarCV--desktop {
     display: inline-flex;
 }
-
-.descargarCV i {
-    font-size: 18px;
-}
-
-.descargarCV:hover {
-    background-color: #6846db;
-}
-
 
 .hamburguesa {
     display: none;

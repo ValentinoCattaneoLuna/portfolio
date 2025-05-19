@@ -1,0 +1,92 @@
+[
+  {
+    "id_skill": 1,
+    "nombre_skill": "HTML",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "alt_skill": "HTML"
+  },
+  {
+    "id_skill": 2,
+    "nombre_skill": "CSS",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "alt_skill": "CSS"
+  },
+  {
+    "id_skill": 3,
+    "nombre_skill": "JavaScript",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "alt_skill": "JavaScript"
+  },
+  {
+    "id_skill": 4,
+    "nombre_skill": "TypeScript",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "alt_skill": "TypeScript"
+  },
+  {
+    "id_skill": 5,
+    "nombre_skill": "Python",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "alt_skill": "Python"
+  },
+  {
+    "id_skill": 6,
+    "nombre_skill": "Java",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    "alt_skill": "Java"
+  },
+  {
+    "id_skill": 7,
+    "nombre_skill": "Kotlin",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+    "alt_skill": "Kotlin"
+  },
+  {
+    "id_skill": 8,
+    "nombre_skill": "PHP",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    "alt_skill": "PHP"
+  },
+  {
+    "id_skill": 9,
+    "nombre_skill": "React",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "alt_skill": "React"
+  },
+  {
+    "id_skill": 10,
+    "nombre_skill": "Node",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "alt_skill": "Node.js"
+  },
+  {
+    "id_skill": 11,
+    "nombre_skill": "Express",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    "alt_skill": "Express"
+  },
+  {
+    "id_skill": 12,
+    "nombre_skill": "MySQL",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+    "alt_skill": "MySQL"
+  },
+  {
+    "id_skill": 13,
+    "nombre_skill": "MongoDB",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    "alt_skill": "MongoDB"
+  },
+  {
+    "id_skill": 14,
+    "nombre_skill": "Git",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    "alt_skill": "Git"
+  },
+  {
+    "id_skill": 15,
+    "nombre_skill": "GitHub",
+    "imagen_skill": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    "alt_skill": "GitHub"
+  }
+]

@@ -1,5 +1,8 @@
 import {toggleMenu} from './components/toggleMenu.js'
-
-document.addEventListener("DOMContentLoaded", () => {
+import { loadSkills } from './components/loadSkills.js';
+import {loadProyects} from './components/loadProyects.js';
+document.addEventListener("DOMContentLoaded", async() => {
     toggleMenu();
+    loadSkills();
+    loadProyects();
   });

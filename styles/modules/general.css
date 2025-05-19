@@ -1,35 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Inter;
-    scroll-behavior: smooth;
-    -webkit-scroll-behavior: smooth;
-}
 
-html,body{
-    overflow-x: hidden;
-    max-width: 100vw;
-}
-a{
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-}
-.contenedor{
-    width: 80%;
-    margin: auto;
-}
-.texto_gradiente_violeta{
-    background: linear-gradient(to right, #8963e6, #8024cd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 :root{
     --fondoAzulOscuro: #020817;
+    --fondoAzulGris: #060d1d;
     --violetaClaro: #7b39ec;
-    --violetaOscuto: #6d28d9;
+    --violetaOscuro: #6d28d9;
     --grisAzulado: #1e293b;
 }
 
@@ -53,3 +28,126 @@ a{
     background-color: #7c3aed; 
   }
   
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+}
+
+html,body{
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.contenedor{
+    width: 80%;
+    margin: auto;
+}
+.contenedor2{
+    width: 70%;
+    margin: auto;
+}
+
+.contenedor90{
+    width: 90%;
+    margin: auto;
+}
+.texto_gradiente_violeta{
+    background: linear-gradient(to right, #8963e6, #8024cd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.boton_violeta{
+    padding: 10px 16px;
+    border: none;
+    border-radius: 12px;
+    background-color: #7f5af0;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+      display: flex;
+    align-items: center;
+    gap: 8px;
+      transition: background-color 0.3s ease;
+}
+
+
+
+
+
+.boton_violeta i {
+    font-size: 18px;
+}
+
+
+.boton_violeta:hover{
+    background-color: #6846db;
+}
+
+
+
+.boton_negro{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    border: 1px solid #7f5af0;
+    border-radius: 12px;
+    background-color: #000;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.boton_negro i {
+    font-size: 16px;
+}
+
+.boton_negro:hover {
+    background-color: #1a1a1a;
+    box-shadow: 0 0 0 2px #7f5af0;
+}
+
+
+.titulo_subrayado {
+    position: relative;
+    display: inline-block;
+}
+.title_section h2{
+  font-size: 2rem;
+    text-align: center;
+}
+.subtitle_section h3{
+    margin-top: -20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.subrayado_gradiente_violeta {
+    position: absolute;
+    height: 0.25rem;
+    width: 100%;
+    left: 0;
+    bottom: -0.25rem;
+    background-image: linear-gradient(to right, #8963e6, #8024cd);
+}
+
+.skill_bubble {
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: #4c1d95;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
