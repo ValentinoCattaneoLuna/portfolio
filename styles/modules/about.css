@@ -9,6 +9,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     gap: 3rem;
+    max-height: 800px;
 }
 
 .info_about {
@@ -61,11 +62,10 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
     }
-
-    .image_about {
-        order: -1; 
-    }
-
+    .image_about  {
+        height: fit-content;
+    }   
+    
     .desc_about p,
     .skills_about {
         max-width: 100%;

@@ -1,0 +1,26 @@
+footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: var(--fondoAzulOscuro);
+    border-top:2px solid var(--grisAzulado);
+
+}
+
+
+.elementos_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.copyright{
+    text-align: center;
+}
+
+@media (max-width:900px) {
+    .elementos_footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
