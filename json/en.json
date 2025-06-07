@@ -1,0 +1,58 @@
+{
+  "navbar": {
+    "about": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "download_cv": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Valentino Cattaneo Luna",
+    "role": "Full Stack Developer specialized in creating modern and functional web experiences",
+    "view_projects": "View Projects",
+    "contact": "Contact",
+    "location": "Pinamar, Buenos Aires, Argentina",
+    "phone": "+54 9 11 2838-4628"
+  },
+  "about": {
+    "title": "About Me",
+    "description_1": "Software Development student at UADE with experience in web development using HTML, CSS, and JavaScript. Knowledge of relational databases (MySQL, SQL Server) and NoSQL (MongoDB).",
+    "description_2": "Familiar with programming paradigms in Python and Java. Version control using Git and GitHub. Interested in both frontend and backend roles, with fast learning ability, focus on best practices, and effective collaboration in development teams."
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A selection of my most recent and relevant projects",
+    "see_more": "See More Projects"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "subtitle": "Technologies and tools I work with"
+  },
+  "languages": {
+    "title": "Languages",
+    "spanish": "Spanish",
+    "spanish_level": "Native",
+    "english": "English",
+    "english_level": "Intermediate (B2)"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "freelance_title": "Full Stack Developer",
+    "freelance_company": "Freelance",
+    "freelance_date": "November 2024 - Present",
+    "freelance_description": "Custom web solutions for various clients. Involved in all stages: frontend, backend, and database design...",
+    "frontend_title": "Frontend Developer",
+    "frontend_company": "ECOSSS",
+    "frontend_date": "April 2024 - November 2024",
+    "frontend_description": "Developed and implemented web interfaces following designs provided by the design team..."
+  },
+  "education": {
+    "title": "Education",
+    "degree": "University Technician in Software Development",
+    "institution": "UADE - Argentine University of Enterprise",
+    "dates": "March 2023 - Present"
+  },
+  "footer": {
+    "copyright": "© 2025 Valentino Cattaneo Luna. All rights reserved."
+  }
+}

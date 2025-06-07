@@ -1,0 +1,58 @@
+{
+  "navbar": {
+    "about": "Sobre Mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "download_cv": "Descargar CV"
+  },
+  "hero": {
+    "greeting": "Hola, soy Valentino Cattaneo Luna",
+    "role": "Desarrollador Full Stack especializado en crear experiencias web modernas y funcionales",
+    "view_projects": "Ver Proyectos",
+    "contact": "Contactar",
+    "location": "Pinamar, Buenos Aires, Argentina",
+    "phone": "+54 9 11 2838-4628"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description_1": "Estudiante de Desarrollo de Software en UADE con experiencia en desarrollo web utilizando HTML, CSS y JavaScript. Conocimientos de bases de datos relacionales (MySQL, SQL server) y NoSQL (MongoDB).",
+    "description_2": "Familiarizado con paradigmas de programación en Python y Java. Manejo de control de versiones con Git y GitHub. Interesado en roles tanto de frontend como backend, con rápida capacidad de aprendizaje, enfoque en buenas prácticas y colaboración efectiva en equipos de desarrollo."
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Una selección de mis proyectos más recientes y relevantes",
+    "see_more": "Ver Más Proyectos"
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "subtitle": "Tecnologías y herramientas con las que trabajo"
+  },
+  "languages": {
+    "title": "Idiomas",
+    "spanish": "Español",
+    "spanish_level": "Nativo",
+    "english": "Inglés",
+    "english_level": "Intermedio (B2)"
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+    "freelance_title": "Full Stack Developer",
+    "freelance_company": "Freelance",
+    "freelance_date": "Noviembre 2024 - Presente",
+    "freelance_description": "Desarrollo de soluciones web a medida para distintos clientes. Participación en todas las etapas: frontend, backend y diseño de bases de datos...",
+    "frontend_title": "Frontend Developer",
+    "frontend_company": "ECOSSS",
+    "frontend_date": "Abril 2024 - Noviembre 2024",
+    "frontend_description": "Desarrollo e implementación de interfaces web siguiendo los diseños entregados por el equipo de diseño..."
+  },
+  "education": {
+    "title": "Educación",
+    "degree": "Tecnicatura universitaria en desarrollo de software",
+    "institution": "UADE - Universidad Argentina de la Empresa",
+    "dates": "Marzo 2023 - Actualidad"
+  },
+  "footer": {
+    "copyright": "© 2025 Valentino Cattaneo Luna. Todos los derechos reservados."
+  }
+}

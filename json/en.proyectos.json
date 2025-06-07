@@ -1,0 +1,30 @@
+[
+  {
+    "id_proyect": 1,
+    "img_proyect": "./assets/img/mockup/mockUp_menuVirutal.webp",
+    "titulo_proyect": "SaaS Virtual Menu",
+    "desc_proyect": "Virtual menu platform designed for food establishments. Includes a homepage with business info and a fully interactive dynamic menu.",
+    "skills_proyect": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+  },
+  {
+    "id_proyect": 2,
+    "img_proyect": "./assets/img/mockup/mockUp_PartyNightBus.webp",
+    "titulo_proyect": "Landing Page - Party Night Bus",
+    "desc_proyect": "Informational landing page for a party bus service in Buenos Aires. Features multiple sections explaining the service and its benefits.",
+    "skills_proyect": ["HTML", "CSS", "JavaScript", "NoSQL"]
+  },
+  {
+    "id_proyect": 3,
+    "img_proyect": "./assets/img/mockup/mockUp_ytDownloader.webp",
+    "titulo_proyect": "YouTube Media Downloader",
+    "desc_proyect": "Desktop application to download YouTube multimedia content in MP3 and MP4 formats, with a simple and functional interface.",
+    "skills_proyect": ["Python"]
+  },
+  {
+    "id_proyect": 4,
+    "img_proyect": "./assets/img/mockup/mockUp_VCLsoftware.webp",
+    "titulo_proyect": "Landing Page - VCLsoftware",
+    "desc_proyect": "Informational website for VCLsoftware, a business offering custom tech solutions for companies and professionals.",
+    "skills_proyect": ["HTML", "CSS", "JavaScript"]
+  }
+]
