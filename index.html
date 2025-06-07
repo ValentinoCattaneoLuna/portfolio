@@ -20,28 +20,31 @@
 
             <nav class="navbar">
                 <ul>
-                    <li><a href="#about">Sobre Mí</a></li>
-                    <li><a href="#proyects">Proyectos</a></li>
-                    <li><a href="#skills">Habilidades</a></li>
-                    <li><a href="#exp">Experiencia</a></li>
-                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#about" data-section="navbar" data-value="about">Sobre Mí</a></li>
+                    <li><a href="#proyects"data-section="navbar" data-value="projects" >Proyectos</a></li>
+                    <li><a href="#skills" data-section="navbar" data-value="skills">Habilidades</a></li>
+                    <li><a href="#exp"data-section="navbar" data-section="experience">Experiencia</a></li>
                 </ul>
-                <button class="boton_violeta descargarCV--mobile">
-                    <i class='bx bx-download'></i>
-                    <span>Descargar CV</span>
-                </button>
+                <a href="./assets/docs/CV_ES_ValentinoCattaneoLuna.pdf" download="CV_ES_ValentinoCattaneoLuna.pdf" class="btn_cv_desktop">
+                    <button class="boton_violeta descargarCV--mobile " >
+                        <i class='bx bx-download'></i>
+                        <span data-section="navbar" data-value="download_cv">Descargar CV</span>
+                    </button>
+                </a>
             </nav>
 
 
             <div class="botonera">
-                <button class="boton_negro">
+                <button class="boton_negro" id="btn_idioma" data-lang="es">
                     <i class='bx bx-globe'></i>
                     <span> ES </span>
                 </button>
-                <button class="descargarCV--desktop boton_violeta">
-                    <i class='bx bx-download'></i>
-                    <span>Descargar CV</span>
-                </button>
+                <a href="./assets/docs/CV_ES_ValentinoCattaneoLuna.pdf" download="CV_ES_ValentinoCattaneoLuna.pdf" class="btn_cv_mobile">
+                    <button class="descargarCV--desktop boton_violeta " >
+                        <i class='bx bx-download'></i>
+                        <span data-section="navbar" data-value="download_cv">Descargar CV</span>
+                    </button>
+                </a>
                 <div class=" hamburguesa" id="toggleMenu">
                     <i class='bx bx-menu'></i>
                 </div>
@@ -67,16 +70,16 @@
                     </div>
 
                     <div class="title_hero">
-                        <h1>Hola, soy <span class="texto_gradiente_violeta">Valentino Cattaneo Luna</span></h1>
+                        <h1 data-section="hero" data-value="greeting">Hola, soy <span class="texto_gradiente_violeta">Valentino Cattaneo Luna</span></h1>
                     </div>
 
-                    <div class="desc_hero">
+                    <div class="desc_hero" data-section="hero" data-value="role">
                         <p>Desarrollador Full Stack especializado en crear experiencias web modernas y funcionales</p>
                     </div>
 
-                    <div class="buttons_hero">
-                        <button class="boton_violeta">Ver Proyectos</button>
-                        <button class="boton_negro">Contactar</button>
+                    <div class="buttons_hero" >
+                        <button class="boton_violeta"data-section="hero" data-value="view_projects">Ver Proyectos</button>
+                        <button class="boton_negro" data-section="hero" data-value="contact">Contactar</button>
                     </div>
 
                     <div class="socials">
@@ -95,7 +98,7 @@
 
                         <div class="informacion">
                             <i class='bx bxs-map'></i>
-                            <span>Pinamar, Buenos Aires, Argentina</span>
+                            <span data-section="hero" data-value="location">Pinamar, Buenos Aires, Argentina</span>
                         </div>
 
                         <div class="informacion">
@@ -112,15 +115,15 @@
                     <div class="info_about">
 
                         <div id="title_about" class="title_section titulo_subrayado">
-                            <h2>Sobre Mí</h2>
+                            <h2 data-section="about" data-value="title">Sobre Mí</h2>
                             <span class="subrayado_gradiente_violeta"></span>
                         </div>
 
                         <div class="desc_about">
-                            <p>Estudiante de Desarrollo de Software en UADE con experiencia en desarrollo web utilizando
+                            <p data-section="about" data-value="description_1">Estudiante de Desarrollo de Software en UADE con experiencia en desarrollo web utilizando
                                 HTML, CSS y JavaScript. Conocimientos de bases de datos relacionales (MySQL, SQL server)
                                 y NoSQL (MongoDB).</p>
-                            <p>Familiarizado con paradigmas de programación en Python y Java. Manejo de control de
+                            <p data-section="about" data-value="description_2">Familiarizado con paradigmas de programación en Python y Java. Manejo de control de
                                 versiones con Git y GitHub. Interesado en roles tanto de frontend como backend, con
                                 rápida capacidad de aprendizaje, enfoque en buenas prácticas y colaboración efectiva en
                                 equipos de desarrollo.</p>
@@ -159,16 +162,16 @@
                 <div class="elementos_proyects">
 
                     <div class="title_section titulo_subrayado">
-                        <h2>Proyectos Destacados</h2>
+                        <h2 data-section="projects" data-value="title">Proyectos Destacados</h2>
                         <span class="subrayado_gradiente_violeta"></span>
                     </div>
                     <div class="subtitle_section">
-                        <h3>Una selección de mis proyectos más recientes y relevantes</h3>
+                        <h3 data-section="projects" data-value="subtitle">Una selección de mis proyectos más recientes y relevantes</h3>
                     </div>
                     <div class="galeria_proyects">
                     </div>
                     <div class="ver_mas">
-                        <button class="boton_negro" id="ver_mas_button_proyects">Ver Más Proyectos</button>
+                        <button class="boton_negro" id="ver_mas_button_proyects"data-section="projects" data-value="see_more">Ver Más Proyectos</button>
                     </div>
 
                 </div>
@@ -179,11 +182,11 @@
                 <div class="elementos_skills">
 
                     <div class="title_section titulo_subrayado">
-                        <h2>Habilidades Técnicas</h2>
+                        <h2 data-section="skills" data-value="title">Habilidades Técnicas</h2>
                         <span class="subrayado_gradiente_violeta"></span>
                     </div>
                     <div class="subtitle_section">
-                        <h3>Tecnologías y herramientas con las que trabajo</h3>
+                        <h3 data-section="skills" data-value="subtitle">Tecnologías y herramientas con las que trabajo</h3>
                     </div>
 
                     <div class="galeria_skills">
@@ -198,7 +201,7 @@
             <div class="contenedor">
                 <div class="idiomas_elements">
                     <div class="title_section">
-                        <h2>Idiomas</h2>
+                        <h2 data-section="languages" data-value="title">Idiomas</h2>
                     </div>
 
                     <div class="galeria_idiomas">
@@ -206,21 +209,21 @@
                         <div class="card_idioma">
                             <div class="informacion_idioma">
                                 <img src="https://flagcdn.com/es.svg" alt="">
-                                <h5>
+                                <h5 data-section="languages" data-value="spanish">
                                     Español</h5>
                             </div>
                             <div class="nivel_idioma">
-                                <h6>Nativo</h6>
+                                <h6 data-section="languages" data-value="spanish_level">Nativo</h6>
                             </div>
 
                         </div>
                         <div class="card_idioma">
                             <div class="informacion_idioma">
                                 <img src="https://flagcdn.com/gb.svg" alt="">
-                                <h5>Inglés</h5>
+                                <h5 data-section="languages" data-value="english">Inglés</h5>
                             </div>
                             <div class="nivel_idioma">
-                                <h6>Intermedio (B2)
+                                <h6 data-section="languages" data-value="english_level">Intermedio (B2)
                                 </h6>
                             </div>
 
@@ -236,17 +239,17 @@
                 <div class="elementos_exp">
                     
                     <div class="title_section titulo_subrayado">
-                        <h2>Experiencia Laboral</h2>
+                        <h2 data-section="experience" data-value="title">Experiencia Laboral</h2>
                         <span class="subrayado_gradiente_violeta"></span>
                     </div>
 
                     <div class="timeline">
                         <div class="timeline-item left">
                             <div class="content">
-                                <h3>Full Stack Developer</h3>
-                                <h4><a href="#">Freelance</a></h4>
-                                <p class="date">Noviembre 2024 - Presente</p>
-                                <p>
+                                <h3 data-section="experience" data-value="freelance_title">Full Stack Developer</h3>
+                                <h4><a href="#" data-section="experience" data-value="freelance_company">Freelance</a></h4>
+                                <p class="date" data-section="experience" data-value="freelance_date">Noviembre 2024 - Presente</p>
+                                <p data-section="experience" data-value="freelance_description">
                                     Desarrollo de soluciones web a medida para distintos clientes. Participación en
                                     todas las
                                     etapas: frontend, backend y diseño de bases de datos...
@@ -256,10 +259,10 @@
 
                         <div class="timeline-item right">
                             <div class="content">
-                                <h3>Frontend Developer</h3>
-                                <h4><a href="#">ECOSSS</a></h4>
-                                <p class="date">Abril 2024 - Noviembre 2024</p>
-                                <p>
+                                <h3 data-section="experience" data-value="frontend_title">Frontend Developer</h3>
+                                <h4><a href="#" data-section="experience" data-value="frontend_company">ECOSSS</a></h4>
+                                <p class="date" data-section="experience" data-value="frontend_date">Abril 2024 - Noviembre 2024</p>
+                                <p data-section="experience" data-value="frontend_description">
                                     Desarrollo e implementación de interfaces web siguiendo los diseños entregados por
                                     el equipo
                                     de diseño...
@@ -279,7 +282,7 @@
                 <div class="elementos_educacion">
 
                     <div class="title_section">
-                        <h2>Educación</h2>
+                        <h2 data-section="education" data-value="title">Educación</h2>
                     </div>
 
                     <div class="galeria_educacion">
@@ -287,15 +290,15 @@
                             <div class="logo_educacion"><span>UADE</span></div>
                             <div class="info_educacion">
                                 <div class="titulacion">
-                                    <h4>
+                                    <h4 data-section="education" data-value="degree">
                                         Tecnicatura universitaria en desarrollo de software
                                     </h4>
                                 </div>
                                 <div class="institucion">
-                                    <h5>UADE - Universidad Argentina de la Empresa</h5>
+                                    <h5 data-section="education" data-value="institution">UADE - Universidad Argentina de la Empresa</h5>
                                 </div>
                                 <div class="fecha_inicio_fin">
-                                    <h6>Marzo 2023 - Actualidad</h6>
+                                    <h6 data-section="education" data-value="dates">Marzo 2023 - Actualidad</h6>
                                 </div>
                             </div>
                         </div>
@@ -305,7 +308,6 @@
             </div>
         </section>
 
-        <section id="contact"></section>
 
 
     </main>
@@ -314,13 +316,13 @@
             <div class="elementos_footer">
 
                 <div class="copyright">
-                    <p>© 2025 Valentino Cattaneo Luna. Todos los derechos reservados.</p>
+                    <p data-section="footer" data-value="copyright">© 2025 Valentino Cattaneo Luna. Todos los derechos reservados.</p>
                 </div>
                 <div class="socials">
-                    <a href="">
+                    <a href="https://github.com/ValentinoCattaneoLuna" target="_blank">
                         <i class='bx bxl-github'></i>
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/valentino-cattaneo-luna-b6116926a/" target="_blank">
                         <i class='bx bxl-linkedin'></i>
                     </a>
                 </div>
