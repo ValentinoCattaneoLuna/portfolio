@@ -43,7 +43,7 @@ export async function toggleLang() {
         textToChange.forEach((element) => {
             const section = element.dataset.section;
             const value = element.dataset.value;
-            element.textContent = textos[section][value]
+            element.innerHTML = textos[section][value]
         });
         await loadProyectos(btn_idioma.dataset.lang);
 

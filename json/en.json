@@ -7,7 +7,7 @@
     "download_cv": "Download CV"
   },
   "hero": {
-    "greeting": "Hi, I'm Valentino Cattaneo Luna",
+     "greeting":  "Hi, I'm <span class='texto_gradiente_violeta'>Valentino Cattaneo Luna</span>",
     "role": "Full Stack Developer specialized in creating modern and functional web experiences",
     "view_projects": "View Projects",
     "contact": "Contact",
