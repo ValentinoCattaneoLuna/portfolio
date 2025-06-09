@@ -1,7 +1,7 @@
 export async function loadProyectos(lang) {
     try {
         // Cargar el archivo JSON de proyectos según el idioma
-        const response = await fetch(`./json/${lang}.proyectos.json`);
+        const response = await fetch(`/json/${lang}.proyectos.json`);
         const proyectos = await response.json();
 
         // Limpiar los proyectos previos antes de añadir los nuevos
