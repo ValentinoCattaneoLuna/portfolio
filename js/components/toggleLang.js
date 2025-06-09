@@ -36,7 +36,7 @@ export async function toggleLang() {
 
         }
 
-        const response = await fetch(`json/${btn_idioma.dataset.lang}.json`)
+        const response = await fetch(`/json/${btn_idioma.dataset.lang}.json`)
 
         const textos = await response.json()
 
