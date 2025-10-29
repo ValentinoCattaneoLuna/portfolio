@@ -3,6 +3,11 @@
     padding-bottom:3rem;
 
 }
+.galeria_educacion{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+}
 .elementos_educacion{
     display: flex;
     flex-direction: column;

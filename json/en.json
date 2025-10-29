@@ -8,7 +8,7 @@
   },
   "hero": {
      "greeting":  "Hi, I'm <span class='texto_gradiente_violeta'>Valentino Cattaneo Luna</span>",
-    "role": "Full Stack Developer specialized in creating modern and functional web experiences",
+    "role": "<p> Full Stack Developer specialized in creating modern and functional web experiences </p>",
     "view_projects": "View Projects",
     "contact": "Contact",
     "location": "Pinamar, Buenos Aires, Argentina",
@@ -50,7 +50,10 @@
     "title": "Education",
     "degree": "University Technician in Software Development",
     "institution": "UADE - Argentine University of Enterprise",
-    "dates": "March 2023 - Present"
+    "dates": "March 2023 - Present",
+    "degree_curso": "Cybersecurity Fundamentals",
+    "institution_curso": "IBM SkillsBuild",
+    "dates_curso": "Octubre 2025"
   },
   "footer": {
     "copyright": "© 2025 Valentino Cattaneo Luna. All rights reserved."
