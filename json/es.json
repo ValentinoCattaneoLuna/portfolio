@@ -16,8 +16,9 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "description_1": "Estudiante de Desarrollo de Software en UADE con experiencia en desarrollo web utilizando HTML, CSS y JavaScript. Conocimientos de bases de datos relacionales (MySQL, SQL server) y NoSQL (MongoDB).",
-    "description_2": "Familiarizado con paradigmas de programación en Python y Java. Manejo de control de versiones con Git y GitHub. Interesado en roles tanto de frontend como backend, con rápida capacidad de aprendizaje, enfoque en buenas prácticas y colaboración efectiva en equipos de desarrollo."
+    "description_1":"Soy desarrollador de software con formación en UADE y experiencia en desarrollo web. Me enfoco en crear aplicaciones eficientes, escalables y bien estructuradas.",
+                  
+    "description_2": "Trabajo tanto en frontend como en backend, participando en el desarrollo de aplicaciones completas. Tengo experiencia con tecnologías actuales del ecosistema web, manejo de bases de datos y control de versiones con Git. Además, cuento con sólidos fundamentos en programación, incluyendo POO y patrones de diseño. Me destaco por adaptarme rápido, mantener buenas prácticas y aportar activamente en equipos de desarrollo."
   },
   "projects": {
     "title": "Proyectos Destacados",
@@ -50,7 +51,7 @@
     "title": "Educación",
     "degree": "Tecnicatura universitaria en desarrollo de software",
     "institution": "UADE - Universidad Argentina de la Empresa",
-    "dates": "Marzo 2023 - Actualidad",
+    "dates": "Marzo 2023 - Diciembre 2025",
     "degree_curso": "Cybersecurity Fundamentals",
     "institution_curso": "IBM SkillsBuild",
     "dates_curso": "Octubre 2025"

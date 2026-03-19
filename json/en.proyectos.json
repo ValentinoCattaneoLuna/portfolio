@@ -1,30 +1,80 @@
 [
   {
     "id_proyect": 1,
-    "img_proyect": "./assets/img/mockup/mockUp_menuVirutal.webp",
-    "titulo_proyect": "SaaS Virtual Menu",
-    "desc_proyect": "Virtual menu platform designed for food establishments. Includes a homepage with business info and a fully interactive dynamic menu.",
-    "skills_proyect": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+    "img_proyect": "./assets/img/mockup/mockUp_tiempodelimpieza.webp",
+    "titulo_proyect": "Ecommerce - Tiempo de Limpieza",
+    "desc_proyect": "Ecommerce for a cleaning company. It has a product catalog, shopping cart and integrated payment process.",
+    "skills_proyect": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Node.js",
+      "Express",
+      "MySQL"
+    ],
+    "link_proyect": "https://tiempodelimpieza.cloud"
   },
   {
     "id_proyect": 2,
-    "img_proyect": "./assets/img/mockup/mockUp_PartyNightBus.webp",
-    "titulo_proyect": "Landing Page - Party Night Bus",
-    "desc_proyect": "Informational landing page for a party bus service in Buenos Aires. Features multiple sections explaining the service and its benefits.",
-    "skills_proyect": ["HTML", "CSS", "JavaScript", "NoSQL"]
+    "img_proyect": "./assets/img/mockup/mockUp_spotifyInsights.webp",
+    "titulo_proyect": "Spotify Insights",
+    "desc_proyect": "WebApp that consumes the Spotify API to display detailed information about artists, albums and playlists. Allows searching by name or Spotify URL.",
+    "skills_proyect": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Node.js",
+      "Express"
+    ],
+    "link_proyect": "https://desafio-tecnico-frontend-zeta.vercel.app"
   },
   {
     "id_proyect": 3,
     "img_proyect": "./assets/img/mockup/mockUp_ytDownloader.webp",
     "titulo_proyect": "YouTube Media Downloader",
     "desc_proyect": "Desktop application to download YouTube multimedia content in MP3 and MP4 formats, with a simple and functional interface.",
-    "skills_proyect": ["Python"]
+    "skills_proyect": [
+      "Python"
+    ],
+    "link_proyect": "https://github.com/ValentinoCattaneoLuna/VCL_Youtube_Downloader"
   },
   {
     "id_proyect": 4,
+    "img_proyect": "./assets/img/mockup/mockUp_menuVirutal.webp",
+    "titulo_proyect": "SaaS Virtual Menu",
+    "desc_proyect": "Virtual menu platform designed for food establishments. Includes a homepage with business info and a fully interactive dynamic menu.",
+    "skills_proyect": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "MySQL"
+    ],
+    "link_proyect": "#"
+  },
+  {
+    "id_proyect": 5,
+    "img_proyect": "./assets/img/mockup/mockUp_PartyNightBus.webp",
+    "titulo_proyect": "Landing Page - Party Night Bus",
+    "desc_proyect": "Informational landing page for a party bus service in Buenos Aires. Features multiple sections explaining the service and its benefits.",
+    "skills_proyect": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "NoSQL"
+    ],
+    "link_proyect": "#"
+  },
+  {
+    "id_proyect": 6,
     "img_proyect": "./assets/img/mockup/mockUp_VCLsoftware.webp",
     "titulo_proyect": "Landing Page - VCLsoftware",
     "desc_proyect": "Informational website for VCLsoftware, a business offering custom tech solutions for companies and professionals.",
-    "skills_proyect": ["HTML", "CSS", "JavaScript"]
+    "skills_proyect": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "link_proyect": "#"
   }
 ]
