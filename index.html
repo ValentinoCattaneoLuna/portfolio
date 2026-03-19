@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -118,14 +118,19 @@
             </div>
 
             <div class="buttons_hero">
+              <a href="#proyects">
+                <button
+                  class="boton_violeta"
+                  data-section="hero"
+                  data-value="view_projects"
+                >
+                  Ver Proyectos
+                </button>
+              </a>
               <button
-                class="boton_violeta"
-                data-section="hero"
-                data-value="view_projects"
-              >
-                Ver Proyectos
-              </button>
-              <button
+                onclick="
+                  window.location.href = 'mailto:valencattaneo04@gmail.com'
+                "
                 class="boton_negro"
                 data-section="hero"
                 data-value="contact"
@@ -152,7 +157,7 @@
               <div class="informacion">
                 <i class="bx bxs-map"></i>
                 <span data-section="hero" data-value="location"
-                  >Pinamar, Buenos Aires, Argentina</span
+                  >Buenos Aires, Argentina</span
                 >
               </div>
 
@@ -175,17 +180,18 @@
 
               <div class="desc_about">
                 <p data-section="about" data-value="description_1">
-                  Estudiante de Desarrollo de Software en UADE con experiencia
-                  en desarrollo web utilizando HTML, CSS y JavaScript.
-                  Conocimientos de bases de datos relacionales (MySQL, SQL
-                  server) y NoSQL (MongoDB).
+                  Soy desarrollador de software con formación en UADE y
+                  experiencia en desarrollo web. Me enfoco en crear aplicaciones
+                  eficientes, escalables y bien estructuradas.
                 </p>
                 <p data-section="about" data-value="description_2">
-                  Familiarizado con paradigmas de programación en Python y Java.
-                  Manejo de control de versiones con Git y GitHub. Interesado en
-                  roles tanto de frontend como backend, con rápida capacidad de
-                  aprendizaje, enfoque en buenas prácticas y colaboración
-                  efectiva en equipos de desarrollo.
+                  Trabajo tanto en frontend como en backend, participando en el
+                  desarrollo de aplicaciones completas. Tengo experiencia con
+                  tecnologías actuales del ecosistema web, manejo de bases de
+                  datos y control de versiones con Git. Además, cuento con
+                  sólidos fundamentos en programación, incluyendo POO y patrones
+                  de diseño. Me destaco por adaptarme rápido, mantener buenas
+                  prácticas y aportar activamente en equipos de desarrollo.
                 </p>
               </div>
 
@@ -233,6 +239,10 @@
                 id="ver_mas_button_proyects"
                 data-section="projects"
                 data-value="see_more"
+                onclick="
+                  window.location.href =
+                    'https://github.com/ValentinoCattaneoLuna'
+                "
               >
                 Ver Más Proyectos
               </button>
@@ -394,7 +404,7 @@
                   </div>
                   <div class="fecha_inicio_fin">
                     <h6 data-section="education" data-value="dates">
-                      Marzo 2023 - Actualidad
+                      Marzo 2023 - Diciembre 2025
                     </h6>
                   </div>
                 </div>
@@ -429,7 +439,7 @@
         <div class="elementos_footer">
           <div class="copyright">
             <p data-section="footer" data-value="copyright">
-              © 2025 Valentino Cattaneo Luna. Todos los derechos reservados.
+              © <span id="copy-year">2025</span> Valentino Cattaneo Luna. Todos los derechos reservados.
             </p>
           </div>
           <div class="socials">
