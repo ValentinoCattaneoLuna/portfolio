@@ -19,6 +19,7 @@ export async function loadProyectos(lang) {
                 .join('');
 
             card.innerHTML = `
+            <a href="${proyecto.link_proyect}" target="_blank" rel="noopener noreferrer">
                 <div class="imagen_proyect">
                     <img src="${proyecto.img_proyect}" alt="${proyecto.titulo_proyect}">
                 </div>
@@ -29,6 +30,7 @@ export async function loadProyectos(lang) {
                         ${skillsHTML}
                     </div>
                 </div>
+            </a>
             `;
 
             contenedor.appendChild(card);
