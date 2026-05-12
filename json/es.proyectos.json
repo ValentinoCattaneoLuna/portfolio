@@ -1,12 +1,17 @@
-[  
-  {"id_proyect": 1,
+[  {"id_proyect": 1,
+    "img_proyect": "./assets/img/mockup/mockUp_gambetapp.webp",
+    "titulo_proyect": "Red Social - GambetApp",
+    "desc_proyect": "Red social para jugadores de fútbol. Permite a los usuarios organizar partidos de una manera sencilla.",
+    "skills_proyect": ["React","TypeScript","Next.js", "Node.js", "Express", "MySQL"],
+    "link_proyect": "https://gambetapp.vercel.app"},
+  {"id_proyect": 2,
     "img_proyect": "./assets/img/mockup/mockUp_tiempodelimpieza.webp",
     "titulo_proyect": "Ecommerce - Tiempo de Limpieza",
     "desc_proyect": "Ecommerce para una empresa de limpieza. Cuenta con un catálogo de productos, carrito de compras y proceso de pago integrado.",
     "skills_proyect": ["React","TypeScript","Next.js", "Node.js", "Express", "MySQL"],
     "link_proyect": "https://tiempodelimpieza.cloud"},
   {
-   "id_proyect": 2,
+   "id_proyect": 3,
     "img_proyect": "./assets/img/mockup/mockUp_spotifyInsights.webp",
     "titulo_proyect": "Spotify Insights",
     "desc_proyect": "WebApp que consume la API de Spotify para mostrar información detallada sobre artistas, álbumes y playlists. permite buscar por nombre o por url de Spotify.",
@@ -15,7 +20,7 @@
     }, 
 
 {
-    "id_proyect": 3,
+    "id_proyect": 4,
     "img_proyect": "./assets/img/mockup/mockUp_ytDownloader.webp",
     "titulo_proyect": "YouTube Media Downloader",
     "desc_proyect": "Aplicación de escritorio para descargar contenido multimedia de YouTube en formato MP3 y MP4, con una interfaz simple y funcional.",
@@ -24,7 +29,7 @@
 
   },
   {
-    "id_proyect": 4,
+    "id_proyect": 5,
     "img_proyect": "./assets/img/mockup/mockUp_menuVirutal.webp",
     "titulo_proyect": "SaaS Menu Virtual",
     "desc_proyect": "Plataforma de menús virtuales diseñada para locales gastronómicos. Incluye una página de inicio con información del local y un menú dinámico totalmente interactivo.",
@@ -32,20 +37,12 @@
     "link_proyect": "#"
   },
   {
-    "id_proyect": 5,
+    "id_proyect": 6,
     "img_proyect": "./assets/img/mockup/mockUp_PartyNightBus.webp",
     "titulo_proyect": "Landing Page - Party Night Bus",
     "desc_proyect": "Landing page informativa sobre el servicio de party buses en Buenos Aires. Presenta múltiples secciones explicativas sobre el funcionamiento y beneficios del servicio.",
     "skills_proyect": ["HTML", "CSS", "JavaScript", "NoSQL"],
     "link_proyect": "#"
 
-  },
-  {
-    "id_proyect": 6,
-    "img_proyect": "./assets/img/mockup/mockUp_VCLsoftware.webp",
-    "titulo_proyect": "Landing Page - VCLsoftware",
-    "desc_proyect": "Sitio web informativo de VCLsoftware, un emprendimiento que ofrece soluciones tecnológicas personalizadas para empresas y profesionales.",
-    "skills_proyect": ["HTML", "CSS", "JavaScript"],
-    "link_proyect": "#"
   }
 ]
